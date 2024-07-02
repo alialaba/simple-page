@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=.0">
+    <title>Simple portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+     <!-- ROBOTO GOOGLE FONT LINK -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+    <section>
+        <div class="flex">
+            <article class="column column-left">
+                <div class="container">
+                    <img class="picture" src="./assets/mypic.png" data-testid="slackProfilePicture" />
+                  <h2 class="name" data-testid="slackDisplayName">Ali AbdulGaniy</h2>
+                  <span data-testid="slackEmail">alialaba079@gmail.com</span>
+                  <p  class="current-time" data-testid="currentTimeUTC">current in UTC</p>
+                  <p class="current-day" data-testid="currentDay">current day of the week</p>
+
+                  <ul class="site-list">
+                    <li class="site-item"><a  class="site-link" data-testid="hngLink" href="https://hng.tech/learn">hng</a></li>
+                    <li  class="site-item"><a class="site-link" data-testid="keywordLink" href="https://keyword.dog/">keywordog</a></li>
+                    <li  class="site-item"><a class="site-link" data-testid="scrapeanyWebLink" href="https://scrapeanyweb.site/">scrapeanyweb</a></li>
+                  </ul>
+        
+                </div>
+            </article>
+            
+    
+            <article class="column column-right">
+               <div class="container">
+                <ul class="goal">
+                    <h2 class="goal__title">Year 1  Goals</h2>
+                    <hr>
+                    <!-- item  -->
+                       <li class="goal__item">
+                        <h3 class="goal__subtitle">Skill Enhancement</h3>
+                        <p class="goal__text">Deepen understanding of ES6+ features.</p>
+                        <p class="goal__text">Learn and implement advanced JavaScript concepts like closures, promises, and async/await.</p>
+                       </li>
+                       <!-- item 2 -->
+                       <li class="goal__item">
+                        <h3 class="goal__subtitle">CSS & Preprocessors:</h3>
+                        <p class="goal__text">Master CSS Grid and Flexbox.</p>
+                        <p class="goal__text">Explore CSS preprocessors like SASS or LESS.</p>
+                       </li>
+                        <!-- item 3 -->
+                        <li class="goal__item">
+                            <h3 class="goal__subtitle">Frameworks and Libraries:</h3>
+                            <p class="goal__text">Gain proficiency in React.js.</p>
+                            <p class="goal__text">Understand the basics of other frameworks/libraries like Angular or Vue.js.</p>
+                           </li>
+                            <!-- item 4 -->
+                       <li class="goal__item">
+                        <h3 class="goal__subtitle">Version Control:</h3>
+                        <p class="goal__text">Master Git workflows (branching, merging, rebasing).</p>
+                        <p class="goal__text">Contribute to open source projects on GitHub.</p>
+                       </li>
+                        <!-- item 5 -->
+                        <li class="goal__item">
+                            <h3 class="goal__subtitle">Skill Enhancement</h3>
+                            <p class="goal__text">Build and deploy at least two full-fledged frontend applications.</p>
+                            <p class="goal__text">Implement responsive design and ensure cross-browser compatibility.
+                            </p>
+                           </li>
+                   </ul>
+        
+                   <ul class="goal">
+                    <h2 class="goal__title">Year 2 Goals</h2>
+                    <hr>
+                    <!-- item  -->
+                       <li class="goal__item">
+                        <h3 class="goal__subtitle">Advanced Skill Enhancement</h3>
+                        <p class="goal__text">Learn techniques for optimizing frontend performance (e.g., lazy loading, code splitting).</p>
+                        <p class="goal__text">Understand and implement Progressive Web Apps (PWAs).</p>
+                       </li>
+                       <!-- item 2 -->
+                       <li class="goal__item">
+                        <h3 class="goal__subtitle">Advanced JavaScript:</h3>
+                        <p class="goal__text">Study TypeScript and integrate it into your projects.</p>
+                        <p class="goal__text">Learn state management libraries like Redux or MobX.</p>
+                       </li>
+                        <!-- item 3 -->
+                        <li class="goal__item">
+                            <h3 class="goal__subtitle">Testing</h3>
+                            <p class="goal__text">Learn and implement frontend testing (unit tests, integration tests, end-to-end tests) using tools like Jest, Mocha, or Cypress.</p>
+                            <p class="goal__text">Understand the basics of other frameworks/libraries like Angular or Vue.js.</p>
+                           </li>
+                            <!-- item 4 -->
+                       <li class="goal__item">
+                        <h3 class="goal__subtitle">Career Enhancement:</h3>
+                        <p class="goal__text">Seek mentorship or become a mentor.</p>
+                        <p class="goal__text">Explore opportunities for leadership roles or specialized positions (e.g., Frontend Architect).</p>
+                       </li>
+                        <!-- item 5 -->
+                        <li class="goal__item">
+                            <h3 class="goal__subtitle">Leadership and Collaboration:</h3>
+                            <p class="goal__text">Lead a small team project or initiative.</p>
+                            <p class="goal__text">Enhance collaboration skills by working closely with designers, backend developers, and product managers.
+                            </p>
+                           </li>
+                   </ul>
+        
+               </div>
+            </article>
+        
+        </div>
+
+</section>
+  
+</main>
+<script src="./index.js"></script>
+</body>
+</html>
