@@ -11,10 +11,11 @@ function getCurrentDayOfWeek() {
   
 
   function getCurrentUTCTime() {
-    const currentDate = new Date();
-    const hours = currentDate.getUTCHours();
-    const minutes = currentDate.getUTCMinutes();
-    const seconds = currentDate.getUTCSeconds();
+    const now = new Date();
+    const hours = now.getUTCHours();
+    const minutes = now.getUTCMinutes();
+    const seconds = now.getUTCSeconds();
+  
     return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
   }
   
